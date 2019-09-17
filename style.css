@@ -1,0 +1,33 @@
+body {
+	font-family: 'Oxygen', sans-serif;
+}
+.main {
+	padding: 11% 15%;
+	height: 100vh;
+	background-color: #546e7a;
+	color: #90a4ae;
+}
+.main h1 {
+	font-size: 35px;
+	margin-left: 10px;
+	color: #cfd8dc;
+}
+.main h2 {
+	font-size: 20px;
+	margin-left: 30px;
+	margin-top: -2%;
+	font-weight: 500;
+}
+#info {
+	padding-left: 140px;
+	font-size: 20px;
+	color: #cfd8dc;
+}
+.education {
+	background-color: #cfd8dc;
+	padding: 10%;
+	height: 100vh;
+}
+.education h2 {
+	margin-bottom: 5%;
+}
