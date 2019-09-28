@@ -4,30 +4,58 @@ body {
 .main {
 	padding: 11% 15%;
 	height: 100vh;
-	background-color: #546e7a;
-	color: #90a4ae;
+	background: linear-gradient(#050B07,#26a69a);
+	color: #cfd8dc;
 }
 .main h1 {
-	font-size: 35px;
-	margin-left: 10px;
-	color: #cfd8dc;
+	font-size: 40px;
+	margin-left: 8px;
+	color: #eeeeee;
 }
 .main h2 {
 	font-size: 20px;
-	margin-left: 30px;
+	margin-left: 39px;
 	margin-top: -2%;
 	font-weight: 500;
 }
 #info {
+	padding-top: 60px;
 	padding-left: 140px;
 	font-size: 20px;
-	color: #cfd8dc;
+	color: white;
 }
-.education {
+.education, .experience, .membership, .conf {
 	background-color: #cfd8dc;
 	padding: 10%;
 	height: 100vh;
+	font-size: 18px;
 }
-.education h2 {
-	margin-bottom: 5%;
+.education h2, .experience h2, .membership h2, .journals h2, .conf h2{
+	margin-bottom: 7%;
+}
+.experience, .journals {
+	background-color: #26a69a;
+}
+.experience h2, .experience th, .journals h2, .journals th{
+	color: white;
+}
+.membership {
+	padding-top: 6%;
+}
+.journals {
+	padding: 7%;
+}
+.conf {
+	padding-top: 5%;
+}
+#info h2 {
+	color: #eeeeee;
+	font-size: 30px;
+	margin-left: -6px;
+	padding-bottom: 10px;
+	font-weight: 500;
+}
+.row-copyright {
+	padding: 10px 30px 10px 0;
+	background-color: #cfd8dc;
 }
